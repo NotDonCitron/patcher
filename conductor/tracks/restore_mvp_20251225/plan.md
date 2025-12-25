@@ -3,7 +3,7 @@
 ## Phase 1: Core Restoration & Setup
 Focus: Getting the application running and setting up the basic routing structure.
 
-- [ ] Task: Create initial `App.tsx` with basic routing structure (Home route).
+- [x] Task: Create initial `App.tsx` with basic routing structure (Home route). [81adb54]
     - Sub-task: Write Tests (Ensure App component renders without crashing).
     - Sub-task: Implement Feature (Create `src/App.tsx` with minimal router/layout).
 - [ ] Task: Verify Project Build & Configuration.

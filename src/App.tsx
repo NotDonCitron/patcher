@@ -1,12 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero';
 import About from './components/About';
+import ContactCTA from './components/ContactCTA';
 
 function Home() {
   return (
     <>
       <Hero />
       <About />
+      <ContactCTA />
     </>
   );
 }

@@ -2,12 +2,14 @@ import { Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero';
 import About from './components/About';
 import ContactCTA from './components/ContactCTA';
+import SkillsGrid from './components/SkillsGrid';
 
 function Home() {
   return (
     <>
       <Hero />
       <About />
+      <SkillsGrid />
       <ContactCTA />
     </>
   );

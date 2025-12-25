@@ -11,5 +11,6 @@ describe('App', () => {
       </BrowserRouter>
     );
     expect(screen.getByText(/AI Engineer & System Developer/i)).toBeInTheDocument();
+    expect(screen.getByText(/Technische Fähigkeiten/i)).toBeInTheDocument();
   });
 });

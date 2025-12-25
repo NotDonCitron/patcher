@@ -11,3 +11,8 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ## [x] Track: Visuelles Technologie-Grid und Skill-Übersicht
 *Link: [./conductor/tracks/skills_grid_20251225/](./conductor/tracks/skills_grid_20251225/)*
+
+---
+
+## [x] Track: Portfolio Projekt-Showcase Sektion
+*Link: [./conductor/tracks/project_showcase_20251225/](./conductor/tracks/project_showcase_20251225/)*

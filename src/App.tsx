@@ -1,9 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero';
+import About from './components/About';
 
 function Home() {
   return (
-    <Hero />
+    <>
+      <Hero />
+      <About />
+    </>
   );
 }
 

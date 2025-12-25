@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import ContactCTA from './components/ContactCTA';
 import SkillsGrid from './components/SkillsGrid';
+import ProjectGrid from './components/ProjectGrid';
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Hero />
       <About />
       <SkillsGrid />
+      <ProjectGrid />
       <ContactCTA />
     </>
   );

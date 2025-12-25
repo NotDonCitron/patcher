@@ -12,5 +12,6 @@ describe('App', () => {
     );
     expect(screen.getByText(/AI Engineer & System Developer/i)).toBeInTheDocument();
     expect(screen.getByText(/Technische Fähigkeiten/i)).toBeInTheDocument();
+    expect(screen.getByText(/Ausgewählte Projekte/i)).toBeInTheDocument();
   });
 });

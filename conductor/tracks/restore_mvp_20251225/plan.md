@@ -1,6 +1,6 @@
 # Track Plan: Wiederherstellung der Basis-Struktur und MVP-Startseite
 
-## Phase 1: Core Restoration & Setup
+## Phase 1: Core Restoration & Setup [checkpoint: de45b36]
 Focus: Getting the application running and setting up the basic routing structure.
 
 - [x] Task: Create initial `App.tsx` with basic routing structure (Home route). [81adb54]
@@ -9,12 +9,12 @@ Focus: Getting the application running and setting up the basic routing structur
 - [x] Task: Verify Project Build & Configuration. [4d68915]
     - Sub-task: Write Tests (Check if build script runs - conceptually).
     - Sub-task: Implement Feature (Fix any config issues in `vite.config.ts` or `tsconfig` if found during restore).
-- [ ] Task: Conductor - User Manual Verification 'Core Restoration & Setup' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Core Restoration & Setup' (Protocol in workflow.md)
 
 ## Phase 2: Content Implementation ("Über Mich")
 Focus: Implementing the German content and visual style.
 
-- [ ] Task: Implement Hero Section (Name, Title, Tagline).
+- [x] Task: Implement Hero Section (Name, Title, Tagline). [11a5194]
     - Sub-task: Write Tests (Verify text content exists).
     - Sub-task: Implement Feature (Create Hero component with Tailwind styling).
 - [ ] Task: Implement "Über Mich" Section (Bio & Motivation).

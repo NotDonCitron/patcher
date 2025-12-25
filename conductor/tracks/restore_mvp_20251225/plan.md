@@ -6,7 +6,7 @@ Focus: Getting the application running and setting up the basic routing structur
 - [x] Task: Create initial `App.tsx` with basic routing structure (Home route). [81adb54]
     - Sub-task: Write Tests (Ensure App component renders without crashing).
     - Sub-task: Implement Feature (Create `src/App.tsx` with minimal router/layout).
-- [ ] Task: Verify Project Build & Configuration.
+- [x] Task: Verify Project Build & Configuration. [4d68915]
     - Sub-task: Write Tests (Check if build script runs - conceptually).
     - Sub-task: Implement Feature (Fix any config issues in `vite.config.ts` or `tsconfig` if found during restore).
 - [ ] Task: Conductor - User Manual Verification 'Core Restoration & Setup' (Protocol in workflow.md)

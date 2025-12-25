@@ -20,7 +20,7 @@ Focus: Implementing the German content and visual style.
 - [x] Task: Implement "Über Mich" Section (Bio & Motivation). [0970457]
     - Sub-task: Write Tests (Verify bio text matches product guidelines).
     - Sub-task: Implement Feature (Create About component with responsive text layout).
-- [ ] Task: Implement Basic Contact Call-to-Action.
+- [x] Task: Implement Basic Contact Call-to-Action. [4b6c6b8]
     - Sub-task: Write Tests (Verify button exists and is clickable).
     - Sub-task: Implement Feature (Add Contact button/link).
 - [ ] Task: Conductor - User Manual Verification 'Content Implementation' (Protocol in workflow.md)

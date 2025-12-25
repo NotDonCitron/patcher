@@ -6,3 +6,8 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ## [x] Track: Wiederherstellung der Basis-Struktur und MVP-Startseite
 *Link: [./conductor/tracks/restore_mvp_20251225/](./conductor/tracks/restore_mvp_20251225/)*
+
+---
+
+## [x] Track: Visuelles Technologie-Grid und Skill-Übersicht
+*Link: [./conductor/tracks/skills_grid_20251225/](./conductor/tracks/skills_grid_20251225/)*

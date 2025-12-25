@@ -1,10 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
+import Hero from './components/Hero';
 
 function Home() {
   return (
-    <main className="p-6">
-      <p>Willkommen zu meinem Portfolio. Ich bin spezialisiert auf KI-Integration und Systemadministration.</p>
-    </main>
+    <Hero />
   );
 }
 

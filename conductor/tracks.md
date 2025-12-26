@@ -21,3 +21,8 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ## [x] Track: Visuelle Aufwertung durch Animationen und interaktive Elemente
 *Link: [./conductor/tracks/ux_ui_showcase_20251225/](./conductor/tracks/ux_ui_showcase_20251225/)*
+
+---
+
+## [x] Track: Integration eines Lebenslaufs zum Download und zur Ansicht
+*Link: [./conductor/tracks/resume_integration_20251225/](./conductor/tracks/resume_integration_20251225/)*

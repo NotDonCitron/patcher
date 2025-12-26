@@ -10,5 +10,11 @@ describe('Hero Component', () => {
     expect(screen.getAllByText(/System/i).length).toBeGreaterThan(0);
     expect(screen.getByText(/Developer/i)).toBeInTheDocument();
     expect(screen.getByText(/Willkommen/i)).toBeInTheDocument();
+    
+    // Check for Resume Download Button
+    const downloadLink = screen.getByRole('link', { name: /Lebenslauf/i });
+    expect(downloadLink).toBeInTheDocument();
+    expect(downloadLink).toHaveAttribute('href', '/lebenslauf.pdf');
+    expect(downloadLink).toHaveAttribute('download');
   });
 });

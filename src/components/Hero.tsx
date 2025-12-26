@@ -1,4 +1,4 @@
-import { Terminal } from 'lucide-react';
+import { Terminal, FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Hero() {
@@ -75,14 +75,19 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.5, duration: 0.8 }}
-        className="flex gap-4"
+        className="flex flex-wrap justify-center gap-4"
       >
         <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors">
           Projekte ansehen
         </button>
-        <button className="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium border border-gray-600 transition-colors">
-          Kontakt
-        </button>
+        <a 
+          href="/lebenslauf.pdf" 
+          download
+          className="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium border border-gray-600 transition-colors"
+        >
+          <FileText size={20} />
+          Lebenslauf
+        </a>
       </motion.div>
     </section>
   );
